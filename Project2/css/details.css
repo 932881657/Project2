@@ -1,0 +1,141 @@
+.menu{
+    position: absolute;
+    right: 1em;
+    display: inline-block;
+}
+.menu_item{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 12px;
+}
+.menu:hover .menu_item{display: block}
+#highlight{
+    background-color: #924c20;
+}
+nav a:hover{
+    background-color: #924c20;
+}
+header{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0.5em 1em;
+}
+header h3{
+    margin: 0;
+}
+header a, header span{
+    color: white;
+}
+header div a{
+    color: black;
+}
+.content{
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 1em;
+    width: 80%;
+    margin: 1em auto;
+    overflow: hidden;
+}
+.header{
+    background-color: #9c9c9c;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.header h4{
+    background-color: #9c9c9c;
+    display: inline;
+    border-top-left-radius: 1em;
+    margin: 0 0.5em;
+}
+.title{
+    text-align: center;
+}
+.title h3, .title p{
+    display: inline;
+}
+#pic{
+    border-radius: 1em;
+    float: left;
+    margin: 2em 5%;
+    width: 40%;
+}
+#right{
+    float: right;
+    width: 40%;
+    margin: 2em 5%;
+    white-space: nowrap;
+}
+.likenumbers{
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 1em;
+    text-align: center;
+}
+.likenumbers h4{
+    background-color: #9c9c9c;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin: 0;
+}
+.imgdetails{
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 1em;
+    margin: 1em 0;
+}
+.imgdetails h4 {
+    background-color: #9c9c9c;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin: 0;
+}
+.imgdetails p{
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+}
+#half{
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+button{
+    width: 100%;
+    height: 3em;
+    background-color: #ff7709;
+    text-align: center;
+    border-radius: 1em;
+}
+button:hover{
+    cursor: pointer;
+}
+button img{
+    height: 16px;
+}
+#derp{
+    margin-bottom: 1em;
+    clear: both;
+    text-align: left;
+    padding: 1em;
+}
+footer{
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+footer img{
+    height: 10%;
+    width: 10%;
+}

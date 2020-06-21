@@ -1,0 +1,137 @@
+.menu{
+    position: absolute;
+    right: 1em;
+    display: inline-block;
+}
+#login{
+    background-color: white;
+}
+#login:hover{
+    background-color:  #924c20;
+}
+#highlight{
+    background-color: #924c20;
+}
+nav a:hover{
+    background-color: #924c20;
+}
+header{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0.5em 1em;
+    min-width: 750px;
+}
+header h3{
+    margin: 0;
+}
+header a, header span{
+    color: white;
+}
+header div a{
+    color: black;
+}
+#homepage{
+    width: 100%;
+    min-width: 800px;
+}
+table{
+    margin: auto;
+    width: 80%;
+}
+td {
+    padding: 1.5em;
+    margin: 1em 30%;
+    min-width: 200px;
+}
+td div{
+    background-color: rgba(238, 146, 14, 0.58);
+    padding: 1em;
+    border-radius: 2em;
+    text-align: center;
+}
+.float{
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+}
+.float img{
+    height: 40px;
+    width: 40px;
+}
+.float img:hover{
+    cursor: pointer;
+}
+.pic:hover{
+    cursor: pointer;
+}
+#pic1{
+    height: 250px;
+    height: 250px;
+    background-image: url("../images/front(1).jpg");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#pic2{
+    height: 250px;
+    height: 250px;
+    background-image: url("../images/front(2).jpg");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#pic3{
+    height: 250px;
+    height: 250px;
+    background-image: url("../images/front(3).jpg");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#pic4{
+    height: 250px;
+    height: 250px;
+    background-image: url("../images/front(4).jpg");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#pic5{
+    height: 250px;
+    height: 250px;
+    background-image: url("../images/front(5).jpg");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#pic6{
+    height: 250px;
+    height: 250px;
+    background-image: url("../images/front(6).jpg");
+    background-size: contain ;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.pic{
+    border-radius: 6px;
+    padding: 0;
+    background-color: transparent;
+}
+footer{
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+footer img{
+    height: 10%;
+    width: 10%;
+}

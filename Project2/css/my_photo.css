@@ -1,0 +1,91 @@
+.menu{
+    position: absolute;
+    right: 1em;
+    display: inline-block;
+}
+.menu_item{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    padding: 12px 12px;
+}
+.menu:hover .menu_item{display: block}
+#highlight{
+    background-color: #924c20;
+}
+nav a:hover{
+    background-color: #924c20;
+}
+header{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0.5em 1em;
+}
+header h3{
+    margin: 0;
+}
+header a, header span{
+    color: white;
+}
+header div a{
+    color: black;
+}
+#content{
+    border-width: 2px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: grey;
+    margin: 1em auto;
+    width: 90%;
+    overflow: hidden;
+}
+h4{
+    margin: 0;
+    padding: 0 1em;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    background-color: #9c9c9c;
+}
+.description{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border-width: 2px;
+    border-color: grey;
+    border-style: solid;
+}
+.description img{
+    float: left;
+    width: 20%;
+    height: 200px;
+    clear: both;
+    padding: 0;
+    margin: 1em;
+}
+.delete {
+    background-color: red;
+    color: white;
+}
+.right{
+    float: right;
+    width: 60%;
+    margin: 0 5%;
+    padding: 0;
+}
+#page{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin: 0;
+    padding: 0 2em;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+}

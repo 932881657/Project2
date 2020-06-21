@@ -1,0 +1,46 @@
+#content{
+    width: 20%;
+    margin: 2em auto;
+    text-align: center;
+}
+h3{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+#login{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1em;
+    margin: 2em auto;
+    display: inline-block;
+}
+input{
+    width: 80%;
+    margin: 0.5em 1em;
+}
+#login p, button{
+    margin: 0.5em 1em;
+}
+button{
+    width: 90%;
+    text-align: center;
+    background-color: green;
+    border-radius: 1em;
+}
+button a{
+    color: white;
+}
+#register{
+    text-align: center;
+    margin: 2em auto;
+}
+footer{
+    text-align: center;
+    margin: 0;
+    padding: 0 2em;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+}
